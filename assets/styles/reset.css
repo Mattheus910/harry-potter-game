@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "harry";
+    user-select: none;
+}
+
+@font-face {
+    font-family: "harry";
+    src: url(../font/harry-font.TTF) format(truetype);
+}

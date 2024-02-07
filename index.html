@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Game</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+
+    <!-- script -->
+    <script src="./assets/scripts/engine.js" defer></script>
+</head>
+<body>
+
+    <audio id="bgm" loop>
+        <source src="./assets/audios/harry_potter_theme.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
+            <source src="./assets/videos/hogwarts-video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="container">
+
+        <section class="information-container">
+
+            <div class="result">
+                <span id="score_points">Win: 0 | Lose: 0</span>
+            </div>
+
+            <div class="preview-card">
+                <img id="card-preview">
+            </div>
+
+            <div class="description-card">
+                <p id="card-name">Selecione</p>
+                <p id="card-type">uma carta</p>
+                <p id="battle"></p>
+            </div>
+        </section>
+
+        <section class="window-game-container">
+
+            <div id="computer-cards">
+
+            </div>
+
+            <div class="card-versus__container">
+
+                <div class="versus-top">
+
+                    <div class="card-infield">
+                        <img id="player-field-card"width="150px">
+                    </div>
+
+                    <img height="100px" src="./assets/images/icon-logo.png">
+
+                    <div class="card-infield">
+                        <img id="computer-field-card" width="150px">
+                    </div>
+
+                </div>
+
+                <div class="versus-bottom">
+                    <button id="next-duel"  onclick="resetDuel()">GANHOU</button>
+                </div>
+
+            </div>
+
+            <div id="player-cards">
+
+            </div>
+
+        </section>
+    </section>
+</body>
+</html>
