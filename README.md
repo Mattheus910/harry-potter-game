@@ -17,6 +17,10 @@ O jogo apresenta um vídeo de fundo relacionado ao universo de Harry Potter, aco
 3. Com base nos tipos de cartas escolhidas, determine quem vence a rodada.
 4. Repita o processo até o final da partida.
 
+## Acesso ao Jogo
+
+Clique [aqui](https://mattheus910.github.io/harry-potter-game) para acessar o jogo.
+
 ## Screenshot
 
 ![Screenshot do jogo](./assets/images/preview.png)
