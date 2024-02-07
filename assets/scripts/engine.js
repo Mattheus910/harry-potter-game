@@ -207,12 +207,12 @@ async function checkDuelResults(cardType, computerCardType){
     let duelResults = "Draw";
 
     if ((cardType === "Fire" && computerCardType === "Earth") || (cardType === "Earth" && computerCardType === "Wind") || (cardType === "Wind" && computerCardType === "Fire")) {
-        duelResults = "Win";
+        duelResults = "win";
         state.score.playerScore++;
     } else if (cardType === computerCardType){
-        duelResults = "Draw";
+        duelResults = "draw";
     } else {
-        duelResults = "Lose"
+        duelResults = "lose"
         state.score.computerScore++;
     }
 
