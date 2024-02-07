@@ -116,7 +116,7 @@ async function getRandomCardId() {
 async function createCardImage(idCard, fieldSide) {
     const cardImage = document.createElement("img");
     cardImage.setAttribute("height", "150px");
-    cardImage.setAttribute("src", "./assets/images/back-card.svg");
+    cardImage.setAttribute("src", "./assets/images/back-card.png");
     cardImage.setAttribute("data-id", idCard);
     cardImage.classList.add("card");
 
